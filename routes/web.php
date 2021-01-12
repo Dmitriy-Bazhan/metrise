@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::group([
+    'prefix' => get_prefix(),
+],
+    function () {
+
+        Route::get('/', 'Site\MainpageController@index');
+
+    }
+);
