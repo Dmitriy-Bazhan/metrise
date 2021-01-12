@@ -23,61 +23,81 @@
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/tokarnaya') }}"><span class="left-column-text">@lang('site.header.tokarnaya')</span></a>
+                    <a href="{{ url_with_locale('/tokarnaya') }}">
+                        <span class="left-column-text">@lang('site.header.tokarnaya')</span>
+                    </a>
 
                 </div>
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/frezirovka') }}"><span class="left-column-text">@lang('site.header.frezirovanie')</span></a>
+                    <a href="{{ url_with_locale('/frezirovka') }}">
+                        <span class="left-column-text">@lang('site.header.frezirovanie')</span>
+                    </a>
 
                 </div>
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/shlifovka') }}"><span class="left-column-text">Шлифовальные работы</span></a>
+                    <a href="{{ url_with_locale('/shlifovka') }}">
+                        <span class="left-column-text">@lang('site.header.shlifovka')</span>
+                    </a>
 
                 </div>
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/slesarnie') }}"><span class="left-column-text">Слесарные работы</span></a>
+                    <a href="{{ url_with_locale('/slesarnie') }}">
+                        <span class="left-column-text">@lang('site.header.slesarnie')</span>
+                    </a>
 
                 </div>
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/termo') }}"><span class="left-column-text">Термообработка</span></a>
+                    <a href="{{ url_with_locale('/termo') }}">
+                        <span class="left-column-text">@lang('site.header.termo')</span>
+                    </a>
 
                 </div>
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/pila') }}"><span class="left-column-text">Пиление заготовок</span></a>
+                    <a href="{{ url_with_locale('/pila') }}">
+                        <span class="left-column-text">@lang('site.header.pilenie')</span>
+                    </a>
 
                 </div>
 
                 <div class="col-12">
 
-                    <a class="header-2-text" href="{{ url_with_locale('/about_us') }}"><span class="left-column-text">О нас</span></a>
+                    <a class="header-2-text" href="{{ url_with_locale('/about_us') }}">
+                        <span class="left-column-text">@lang('site.header.about_us')</span>
+                    </a>
 
                 </div>
 
                 <div class="col-12">
 
-                    <a class="header-2-text" href="{{ url_with_locale('/gallery') }}"><span class="left-column-text">Галерея</span></a>
+                    <a class="header-2-text" href="{{ url_with_locale('/gallery') }}">
+                        <span class="left-column-text">@lang('site.header.gallery')</span>
+                    </a>
 
                 </div>
 
                 <div class="col-12">
 
-                    <a class="header-2-text" href="{{ url_with_locale('/orders') }}"><span class="left-column-text">Заказать</span></a>
+                    <a class="header-2-text" href="{{ url_with_locale('/orders') }}">
+                        <span class="left-column-text">@lang('site.header.orders')</span>
+                    </a>
 
                 </div>
 
                 <div class="col-12">
 
-                    <a class="header-2-text" href="{{ url_with_locale('/contacts') }}"><span class="left-column-text">Контакты</span></a>
+                    <a class="header-2-text" href="{{ url_with_locale('/contacts') }}">
+                        <span class="left-column-text">@lang('site.header.contacts')</span>
+                    </a>
 
                 </div>
 
@@ -87,25 +107,25 @@
 
         <div class="col-12 col-sm-2 col-md-2 col-lg-2 d-none d-sm-block">
 
-            <a class="header-2-text" href="{{ url_with_locale('/about_us') }}">О нас</a>
+            <a class="header-2-text" href="{{ url_with_locale('/about_us') }}">@lang('site.header.about_us')</a>
 
         </div>
 
         <div class="col-12 col-sm-2 col-md-2 col-lg-2 d-none d-sm-block">
 
-            <a class="header-2-text" href="{{ url_with_locale('/gallery') }}">Галерея</a>
+            <a class="header-2-text" href="{{ url_with_locale('/gallery') }}">@lang('site.header.gallery')</a>
 
         </div>
 
         <div class="col-12 col-sm-2 col-md-2 col-lg-2 d-none d-sm-block">
 
-            <a class="header-2-text" href="{{ url_with_locale('/orders') }}">Заказать</a>
+            <a class="header-2-text" href="{{ url_with_locale('/orders') }}">@lang('site.header.orders')</a>
 
         </div>
 
         <div class="col-12 col-sm-2 col-md-2 col-lg-2 offset-xl-2 offset-md-2 offset-sm-1 d-none d-sm-block">
 
-            <a class="header-2-text" href="{{ url_with_locale('/contacts') }}">Контакты</a>
+            <a class="header-2-text" href="{{ url_with_locale('/contacts') }}">@lang('site.header.contacts')</a>
 
         </div>
 

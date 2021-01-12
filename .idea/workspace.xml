@@ -3,19 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="6b23abde-59e0-4a65-a01e-047278953b33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Site/MainpageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Site/MainpageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/grinder-1412226_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/grinding-machine-3398503_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/industrial-691376_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/industry-3366335_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/milling-444493_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/milling-cutters-3738903_1280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ru/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ua/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ua/site.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/components/header1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/components/header1.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/components/header2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/components/header2.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/main_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/main_page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/frezirovka.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/frezirovka.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/pila.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/pila.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/shlifovka.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/shlifovka.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/slesarnie.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/slesarnie.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/termo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/termo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/tokarnaya.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/tokarnaya.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610443627700</updated>
       <workItem from="1610443628812" duration="18436000" />
-      <workItem from="1610474854402" duration="9507000" />
+      <workItem from="1610474854402" duration="14214000" />
     </task>
     <servers />
   </component>

@@ -49,6 +49,22 @@ a:hover {
     font-weight: 500;
 }
 
+.phone-block-left {
+    text-align: right;
+}
+
+.phone-block-right {
+    text-align: left;
+}
+.motivation-song-block {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.motivation-song {
+    color: white;
+    opacity: 0.5;
+}
 .gallery-image {
     width: 100%;
     margin: 0 0 2% 0;

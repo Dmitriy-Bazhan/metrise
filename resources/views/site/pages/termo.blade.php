@@ -24,5 +24,12 @@
                   dicta dolor dolores error esse excepturi exercitationem fugit hic illo impedit labore laudantium
                   optio praesentium quas quod repudiandae sed tempora temporibus?</span>
 
+    <div class="motivation-song-block">
+
+        <span class="motivation-song">@lang('site.pages.motivaciya')</span>
+        <a class="header-2-text" href="{{ url_with_locale('/orders') }}">@lang('site.pages.go_to_orders')</a>
+
+    </div>
+
 
 @endsection

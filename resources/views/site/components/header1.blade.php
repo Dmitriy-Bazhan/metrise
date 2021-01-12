@@ -2,12 +2,12 @@
 
     <div class="row">
 
-        <div class="d-none d-sm-block col-sm-5 col-md-5 col-lg-5" style="text-align: right">
+        <div class="d-none d-sm-block col-sm-5 col-md-5 col-lg-5 phone-block-left">
             <span class="phone-tube">&#9990;&nbsp;</span>
             <span class="phone-number">099 915 58 80</span>
         </div>
 
-        <div class="d-none d-sm-block col-sm-5 col-md-5 col-lg-5" style="text-align: left">
+        <div class="d-none d-sm-block col-sm-5 col-md-5 col-lg-5 phone-block-right">
             <span class="phone-tube">&#9990;&nbsp;</span>
             <span class="phone-number">093 811 30 48</span>
         </div>

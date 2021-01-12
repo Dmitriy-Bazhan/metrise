@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Мехобработка</title>
+    <title>@lang('site.title.title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
@@ -42,25 +42,29 @@
                                          src="{{asset('images/freza-1.jpg')}}"></a>
                             </li>
                             <li>
-                                <a href="{{ url_with_locale('/shlifovka') }}"><span class="left-column-text">Шлифовальные работы</span>
+                                <a href="{{ url_with_locale('/shlifovka') }}">
+                                    <span class="left-column-text">@lang('site.header.shlifovka')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
                                          src="{{asset('images/shlif.jpg')}}">
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ url_with_locale('/slesarnie') }}"><span class="left-column-text">Слесарные работы</span>
+                                <a href="{{ url_with_locale('/slesarnie') }}">
+                                    <span class="left-column-text">@lang('site.header.slesarnie')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
                                          src="{{asset('images/slesarnie.jpg')}}">
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ url_with_locale('/termo') }}"><span class="left-column-text">Термообработка</span>
+                                <a href="{{ url_with_locale('/termo') }}">
+                                    <span class="left-column-text">@lang('site.header.termo')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
                                          src="{{asset('images/termichka.jpg')}}">
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ url_with_locale('/pila') }}"><span class="left-column-text">Пиление заготовок</span>
+                                <a href="{{ url_with_locale('/pila') }}">
+                                    <span class="left-column-text">@lang('site.header.pilenie')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
                                          src="{{asset('images/pila.jpg')}}">
                                 </a>
