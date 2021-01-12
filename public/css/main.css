@@ -1,3 +1,25 @@
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.lang-link-disabled {
+    color: lime;
+}
+
+.lang-link-enabled {
+    color: gray;
+}
+
+.lang-link-enabled:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .phone-tube {
     color: #2fa360;
 }
@@ -20,11 +42,68 @@
     background-color: transparent;
 }
 
-.header-2-text {
-    font-size: 16px;
-    font-family: "Titillium Web", Helvetica, Arial;
+.header-2-logo-text {
+    font-size: 22px;
+    font-family: Helvetica, Arial;
     color: #ffffff;
     font-weight: 500;
+}
+
+.gallery-image {
+    width: 100%;
+    margin: 0 0 2% 0;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.left-column-image {
+    width: 90%;
+}
+
+.left-column-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Helvetica Neue", serif;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.image-main-column {
+    width: 60%;
+    float: left;
+    margin-right: 2%;
+}
+
+.text-main-column {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Helvetica Neue", serif;
+    font-weight: 500;
+}
+
+.main-block {
+    /*text-align: right;*/
+}
+
+.page-title {
+    color: white;
+}
+
+.header-2-text {
+    font-size: 16px;
+    font-family: Helvetica, Arial;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.body-container {
+    margin-top: 1%;
+    background: radial-gradient(#28867e, #015460);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 body {

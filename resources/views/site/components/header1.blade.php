@@ -2,18 +2,18 @@
 
     <div class="row">
 
-        <div class="d-none d-sm-block col-sm-6 col-md-6 col-lg-6" style="text-align: right">
+        <div class="d-none d-sm-block col-sm-5 col-md-5 col-lg-5" style="text-align: right">
             <span class="phone-tube">&#9990;&nbsp;</span>
             <span class="phone-number">099 915 58 80</span>
         </div>
 
-        <div class="d-none d-sm-block col-sm-6 col-md-6 col-lg-6" style="text-align: left">
+        <div class="d-none d-sm-block col-sm-5 col-md-5 col-lg-5" style="text-align: left">
             <span class="phone-tube">&#9990;&nbsp;</span>
             <span class="phone-number">093 811 30 48</span>
         </div>
 
 
-        <div class="d-sm-none d-md-none d-lg-none col-12">
+        <div class="d-sm-none d-md-none d-lg-none col-9">
             <span class="phone-tube">&#9990;&nbsp;</span>
             <span class="phone-number">099 915 58 80</span>
             <br>
@@ -21,6 +21,25 @@
             <span class="phone-number">093 811 30 48</span>
         </div>
 
+        <div class="col-3 col-sm-2 col-md-2 col-lg-2">
+
+            @if ( app()->getLocale() == 'ua' )
+
+                <span class="lang-link-disabled">UA</span>
+                <span class="lang-link-enabled">|</span>
+                <a class="lang-link-enabled" href=" {{ $path }} "><span>RU</span></a>
+
+            @else
+
+                <a class="lang-link-enabled" href=" {{ $path }}"><span>UA</span></a>
+                <span class="lang-link-enabled">|</span>
+                <span class="lang-link-disabled">RU</span>
+
+            @endif
+
+        </div>
+
     </div>
+
 
 </div>
