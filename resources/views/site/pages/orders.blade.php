@@ -6,7 +6,8 @@
 
     @if(session('success'))
 
-        <span class="message-success">Сообщение отправлено. Наш менеджер свяжеться с вами при первой возможности.</span>
+        <span class="message-success">@lang('site.orders.success')</span>
+
     @else
 
 
@@ -22,15 +23,15 @@
 
         {{ csrf_field() }}
 
-        <div class="form-left-decoration"></div>
-        <div class="form-right-decoration"></div>
-        <div class="circle"></div>
+{{--        <div class="form-left-decoration"></div>--}}
+{{--        <div class="form-right-decoration"></div>--}}
+{{--        <div class="circle"></div>--}}
 
 
         <div class="form-inner">
 
             <div>
-                <label for="file" class="add-more-image">Добавить файлы</label>
+                <label for="file" class="add-more-image">@lang('site.orders.add_files')</label>
                 <input class="add-more-image-input" id="file" type="file" name="images[]" multiple>
             </div>
 
@@ -38,7 +39,7 @@
 
                 <div class="order-block-with-error">
 
-                    <textarea name="description" placeholder="Описание :"
+                    <textarea name="description" placeholder="@lang('site.orders.description')"
                               class="input-description">{{ old('description') }}</textarea>
 
                 </div>
@@ -47,7 +48,7 @@
 
                 <div class="order-block-without-error">
 
-                    <textarea name="description" placeholder="Описание :"
+                    <textarea name="description" placeholder="@lang('site.orders.description')"
                               class="input-description">{{ old('description') }}</textarea>
 
                 </div>
@@ -58,7 +59,7 @@
 
                 <div class="order-block-with-error">
 
-                    <input type="text" value="{{ old('name') }}" name="name" placeholder="Имя :" class="input-name">
+                    <input type="text" value="{{ old('name') }}" name="name" placeholder="@lang('site.orders.name')" class="input-name">
 
                 </div>
 
@@ -66,7 +67,7 @@
 
                 <div class="order-block-without-error">
 
-                    <input type="text" value="{{ old('name') }}" name="name" placeholder="Имя :" class="input-name">
+                    <input type="text" value="{{ old('name') }}" name="name" placeholder="@lang('site.orders.name')" class="input-name">
 
                 </div>
 
@@ -76,8 +77,8 @@
 
                 <div class="order-block-with-error">
 
-                    <span>Как мы свяжемся с вами?</span>
-                    <input type="tel" value="{{ old('phone') }}" name="phone" placeholder="Телефон :"
+                    <span>@lang('site.orders.how_i_call_you')</span>
+                    <input type="tel" value="{{ old('phone') }}" name="phone" placeholder="@lang('site.orders.phone')"
                            class="input-phone-with-error">
 
                 </div>
@@ -86,7 +87,7 @@
 
                 <div class="order-block-without-error">
 
-                    <input type="tel" value="{{ old('phone') }}" name="phone" placeholder="Телефон для связи:"
+                    <input type="tel" value="{{ old('phone') }}" name="phone" placeholder="@lang('site.orders.phone')"
                            class="input-phone">
 
                 </div>
@@ -94,7 +95,7 @@
             @endif
 
             <div>
-                <input type="submit" value="Отправить">
+                <input type="submit" value="@lang('site.orders.send')">
             </div>
 
         </div>

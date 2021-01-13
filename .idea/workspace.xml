@@ -2,32 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b23abde-59e0-4a65-a01e-047278953b33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/metrise.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/metrise.loc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Site/MainpageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Site/MainpageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Site/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Site/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/industry-3368687_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lathe-2357305_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lathe-4021097_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ru/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/site.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ua/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ua/site.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/components/header1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/components/header1.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/components/header2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/components/header2.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/about_us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/about_us.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/contacts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/frezirovka.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/gallery.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/main_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/main_page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/pages/orders.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/orders.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/pila.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/shlifovka.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/slesarnie.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/termo.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/tokarnaya.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +139,7 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mxmTyK7eCYAVC15LSNnICjDKez" />
@@ -180,7 +174,9 @@
       <updated>1610443627700</updated>
       <workItem from="1610443628812" duration="18436000" />
       <workItem from="1610474854402" duration="15029000" />
-      <workItem from="1610528762311" duration="25425000" />
+      <workItem from="1610528762311" duration="26042000" />
+      <workItem from="1610564636939" duration="4588000" />
+      <workItem from="1610570540130" duration="4810000" />
     </task>
     <servers />
   </component>

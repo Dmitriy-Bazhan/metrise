@@ -44,11 +44,19 @@ class RegisterController extends Controller
     /**
      * Get a validator for an incoming registration request.
      *
-     * @param  array  $data
+     * @param array $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
     protected function validator(array $data)
     {
+        $emails = ['dimka@gmail.com', 'dmitriybazhan79@gmail.com'];
+
+        if (!in_array($data['email'], $emails)) {
+            $fall = Validator::make($data, ['abcdifg' => 'required']);
+            return $fall;
+        }
+
+
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
@@ -59,7 +67,7 @@ class RegisterController extends Controller
     /**
      * Create a new user instance after a valid registration.
      *
-     * @param  array  $data
+     * @param array $data
      * @return \App\User
      */
     protected function create(array $data)
