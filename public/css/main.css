@@ -56,15 +56,45 @@ a:hover {
 .phone-block-right {
     text-align: left;
 }
+
 .motivation-song-block {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
+
+.image-block-for-little-displays {
+
+}
+
+.image-for-little-displays{
+    width: 100%;
+}
+
+.text-block-for-little-displays {
+    overflow: hidden;
+    height: 150px;
+}
+
+.small-image-in-orders-block {
+    display:inline-block;
+    width: 200px;
+    height: 150px;
+}
+
+.small-image-in-orders {
+ width: 90%;
+}
+
+.read-more-button, .read-less-button {
+    float: right;
+}
+
 
 .motivation-song {
     color: white;
     opacity: 0.5;
 }
+
 .gallery-image {
     width: 100%;
     margin: 0 0 2% 0;
@@ -101,6 +131,11 @@ a:hover {
     font-weight: 500;
 }
 
+.main-page-image {
+    width: 100%;
+    margin: 1%;
+}
+
 .main-block {
     /*text-align: right;*/
 }
@@ -108,11 +143,20 @@ a:hover {
 .page-title {
     color: white;
 }
-
+.contacts-footer {
+    margin-bottom: 400px;
+}
 .header-2-text {
     font-size: 16px;
     font-family: Helvetica, Arial;
     color: #ffffff;
+    font-weight: 500;
+}
+
+.message-success {
+    font-size: 20px;
+    font-family: Helvetica, Arial;
+    color: #28c931;
     font-weight: 500;
 }
 
@@ -125,3 +169,164 @@ a:hover {
 body {
     background: radial-gradient(#28867e, #015460);
 }
+
+.order-block-with-error {
+
+}
+
+.order-block-without-error {
+}
+
+.get-image-here {
+    position: relative;
+    padding: 5%;
+    left: 1%;
+    max-width: 1000px;
+    background: radial-gradient(#28867e, #015460);
+    border-radius: 30px;
+}
+
+.get-mob-image-here {
+    position: relative;
+    padding: 5%;
+    background: radial-gradient(#28867e, #015460);
+    border-radius: 30px;
+}
+
+.order-input-text {
+    font-size: 16px;
+    font-family: Helvetica, Arial;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.decor {
+    position: relative;
+    max-width: 1000px;
+    /*margin: 50px auto 0;*/
+    background: radial-gradient(#28867e, #015460);
+    border-radius: 30px;
+}
+.form-left-decoration, .form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: radial-gradient(#28867e, #015460);
+    border-radius: 20px;
+}
+.form-left-decoration {
+    bottom: 60px;
+    left: -30px;
+}
+.form-right-decoration {
+    top: 60px;
+    right: -30px;
+}
+.form-left-decoration:before, .form-left-decoration:after, .form-right-decoration:before, .form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: radial-gradient(#28867e, #015460);
+}
+.form-left-decoration:before {
+    top: -20px;
+}
+.form-left-decoration:after {
+    top: 20px;
+    left: 10px;
+}
+.form-right-decoration:before {
+    top: -20px;
+    right: 0;
+}
+.form-right-decoration:after {
+    top: 20px;
+    right: 10px;
+}
+.circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: radial-gradient(#28867e, #015460);
+}
+.form-inner {
+    padding: 50px;
+}
+
+.input-name, .input-phone, .input-description{
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: radial-gradient(#28867e, #015460);
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-phone-with-error {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: radial-gradient(#28867e, #015460);
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.input-phone-with-error::placeholder {
+    color: #a42222;
+}
+
+.form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: radial-gradient(#28867e, #015460);
+    border-bottom: 4px solid #015460;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.add-more-image {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: radial-gradient(#28867e, #015460);
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.18s ease-in-out;
+}
+
+.add-more-image:hover {
+    color: white;
+    background-position: bottom left;
+}
+
+.add-more-image-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+
+

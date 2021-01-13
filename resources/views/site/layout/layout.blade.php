@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
     <title>@lang('site.title.title')</title>
@@ -9,6 +9,9 @@
 
 </head>
 <body>
+
+<script src="{{ asset('js/jquery-3.4.1.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}" type="text/javascript"></script>
 
 <div class="container-fluid">
 
@@ -49,10 +52,10 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ url_with_locale('/slesarnie') }}">
-                                    <span class="left-column-text">@lang('site.header.slesarnie')</span>
+                                <a href="{{ url_with_locale('/zuborezka') }}">
+                                    <span class="left-column-text">@lang('site.header.zuborezka')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
-                                         src="{{asset('images/slesarnie.jpg')}}">
+                                         src="{{asset('images/zuborezka.png')}}">
                                 </a>
                             </li>
                             <li>
@@ -67,6 +70,13 @@
                                     <span class="left-column-text">@lang('site.header.pilenie')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
                                          src="{{asset('images/pila.jpg')}}">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ url_with_locale('/slesarnie') }}">
+                                    <span class="left-column-text">@lang('site.header.slesarnie')</span>
+                                    <img class="left-column-image d-none d-sm-none d-md-block"
+                                         src="{{asset('images/slesarnie.jpg')}}">
                                 </a>
                             </li>
                         </ul>
@@ -91,8 +101,7 @@
 </div>
 
 
-<script src="{{ asset('js/jquery-3.4.1.js') }}" type="text/javascript"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}" type="text/javascript"></script>
+
 <script src="{{ asset('js/main_page.js') }}" type="text/javascript"></script>
 </body>
 </html>

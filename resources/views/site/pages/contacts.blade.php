@@ -2,26 +2,33 @@
 
 @section('content')
 
-    <h2 class="page-title">Контакты</h2>
+    <h2 class="page-title">@lang('site.contacts.title')</h2>
 
-    <span class="text-main-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores et ex magni minima voluptatibus.
-                  Aliquid consequuntur eius id iusto modi molestias quo.
-                  Accusantium aliquam aliquid aperiam autem culpa deserunt,
-                  dicta dolor dolores error esse excepturi exercitationem fugit hic illo impedit labore laudantium
-                  optio praesentium quas quod repudiandae sed tempora temporibus?</span>
-    <span class="text-main-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores et ex magni minima voluptatibus.
-                  Aliquid consequuntur eius id iusto modi molestias quo.
-                  Accusantium aliquam aliquid aperiam autem culpa deserunt,
-                  dicta dolor dolores error esse excepturi exercitationem fugit hic illo impedit labore laudantium
-                  optio praesentium quas quod repudiandae sed tempora temporibus?</span>
-    <span class="text-main-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores et ex magni minima voluptatibus.
-                  Aliquid consequuntur eius id iusto modi molestias quo.
-                  Accusantium aliquam aliquid aperiam autem culpa deserunt,
-                  dicta dolor dolores error esse excepturi exercitationem fugit hic illo impedit labore laudantium
-                  optio praesentium quas quod repudiandae sed tempora temporibus?</span>
+    <br>
+
+    @if(isset($phones) && count($phones) > 0)
+
+        @foreach($phones as $phone)
+
+            <h4 class="text-main-column">Телефон : {{ $phone }}</h4>
+
+        @endforeach
+
+    @endif
+
+    <br>
+
+    @if(isset($emails) && count($emails) > 0)
+
+        @foreach($emails as $email)
+
+            <h4 class="text-main-column">E-mail : {{ $email }}</h4>
+
+        @endforeach
+
+    @endif
+
+    <div class="contacts-footer"></div>
 
 
 @endsection

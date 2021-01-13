@@ -11,6 +11,8 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-interval="10000">
@@ -22,6 +24,13 @@
                 <div class="carousel-item" data-interval="10000">
                     <img src="{{ asset('images/termichka.jpg') }}" class="d-block w-100" alt="...">
                 </div>
+                <div class="carousel-item" data-interval="10000">
+                    <img src="{{ asset('images/1.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-interval="10000">
+                    <img src="{{ asset('images/2.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -42,6 +51,11 @@
         <img src="{{ asset('images/slesarnie.jpg') }}" class="gallery-image" alt="..."><br>
 
         <img src="{{ asset('images/termichka.jpg') }}" class="gallery-image" alt="..."><br>
+
+        <img src="{{ asset('images/1.jpg') }}" class="gallery-image" alt="..."><br>
+
+        <img src="{{ asset('images/2.jpg') }}" class="gallery-image" alt="..."><br>
+
 
     </div>
 @endsection

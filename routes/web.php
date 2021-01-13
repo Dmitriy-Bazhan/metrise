@@ -22,6 +22,7 @@ Route::group([
         Route::get('/frezirovka', 'Site\MainpageController@frezirovka');
         Route::get('/shlifovka', 'Site\MainpageController@shlifovka');
         Route::get('/slesarnie', 'Site\MainpageController@slesarnie');
+        Route::get('/zuborezka', 'Site\MainpageController@zuborezka');
         Route::get('/termo', 'Site\MainpageController@termo');
         Route::get('/pila', 'Site\MainpageController@pila');
         Route::get('/about_us', 'Site\MainpageController@about_us');
@@ -29,6 +30,6 @@ Route::group([
         Route::get('/contacts', 'Site\MainpageController@contacts');
 
         Route::get('/orders', 'Site\OrderController@index');
-
+        Route::post('/save-orders', 'Site\OrderController@saveOrders');
     }
 );

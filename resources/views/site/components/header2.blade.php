@@ -47,8 +47,8 @@
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/slesarnie') }}">
-                        <span class="left-column-text">@lang('site.header.slesarnie')</span>
+                    <a href="{{ url_with_locale('/zuborezka') }}">
+                        <span class="left-column-text">@lang('site.header.zuborezka')</span>
                     </a>
 
                 </div>
@@ -65,6 +65,14 @@
 
                     <a href="{{ url_with_locale('/pila') }}">
                         <span class="left-column-text">@lang('site.header.pilenie')</span>
+                    </a>
+
+                </div>
+
+                <div class="col-12">
+
+                    <a href="{{ url_with_locale('/slesarnie') }}">
+                        <span class="left-column-text">@lang('site.header.slesarnie')</span>
                     </a>
 
                 </div>

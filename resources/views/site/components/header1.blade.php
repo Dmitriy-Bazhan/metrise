@@ -3,25 +3,41 @@
     <div class="row">
 
         <div class="d-none d-sm-block col-sm-5 col-md-5 col-lg-5 phone-block-left">
-            <span class="phone-tube">&#9990;&nbsp;</span>
-            <span class="phone-number">099 915 58 80</span>
+
+            @if(isset($phones[0]))
+
+                <span class="phone-tube">&#9990;&nbsp;</span>
+                <span class="phone-number"> {{ isset($phones[0]) ? $phones[0] : '' }}</span>
+
+            @endif
+
         </div>
 
         <div class="d-none d-sm-block col-sm-5 col-md-5 col-lg-5 phone-block-right">
-            <span class="phone-tube">&#9990;&nbsp;</span>
-            <span class="phone-number">093 811 30 48</span>
+
+            @if(isset($phones[1]))
+
+                <span class="phone-tube">&#9990;&nbsp;</span>
+                <span class="phone-number">{{ isset($phones[1]) ? $phones[1] : '' }}</span>
+
+            @endif
+
         </div>
 
+        <div class="d-sm-none d-md-none d-lg-none col-8">
 
-        <div class="d-sm-none d-md-none d-lg-none col-9">
-            <span class="phone-tube">&#9990;&nbsp;</span>
-            <span class="phone-number">099 915 58 80</span>
-            <br>
-            <span class="phone-tube">&#9990;&nbsp;</span>
-            <span class="phone-number">093 811 30 48</span>
+            @if(isset($phones[0]))
+                <span class="phone-tube">&#9990;&nbsp;</span>
+                <span class="phone-number">{{ isset($phones[0]) ? $phones[0] : '' }}</span>
+                <br>
+            @endif
+            @if(isset($phones[1]))
+                <span class="phone-tube">&#9990;&nbsp;</span>
+                <span class="phone-number">{{ isset($phones[1]) ? $phones[1] : '' }}</span>
+            @endif
         </div>
 
-        <div class="col-3 col-sm-2 col-md-2 col-lg-2">
+        <div class="col-4 col-sm-2 col-md-2 col-lg-2">
 
             @if ( app()->getLocale() == 'ua' )
 

@@ -5,24 +5,8 @@
     <h2 class="page-title">О нас</h2>
 
     <img class="image-main-column" src=" {{ asset('images/about_us.jpg') }}">
-    <span class="text-main-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores et ex magni minima voluptatibus.
-                  Aliquid consequuntur eius id iusto modi molestias quo.
-                  Accusantium aliquam aliquid aperiam autem culpa deserunt,
-                  dicta dolor dolores error esse excepturi exercitationem fugit hic illo impedit labore laudantium
-                  optio praesentium quas quod repudiandae sed tempora temporibus?</span>
-    <span class="text-main-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores et ex magni minima voluptatibus.
-                  Aliquid consequuntur eius id iusto modi molestias quo.
-                  Accusantium aliquam aliquid aperiam autem culpa deserunt,
-                  dicta dolor dolores error esse excepturi exercitationem fugit hic illo impedit labore laudantium
-                  optio praesentium quas quod repudiandae sed tempora temporibus?</span>
-    <span class="text-main-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores et ex magni minima voluptatibus.
-                  Aliquid consequuntur eius id iusto modi molestias quo.
-                  Accusantium aliquam aliquid aperiam autem culpa deserunt,
-                  dicta dolor dolores error esse excepturi exercitationem fugit hic illo impedit labore laudantium
-                  optio praesentium quas quod repudiandae sed tempora temporibus?</span>
+    <span class="text-main-column">@lang('site.about_us.text')</span>
 
+    <div class="contacts-footer"></div>
 
 @endsection

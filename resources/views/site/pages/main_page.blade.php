@@ -2,26 +2,54 @@
 
 @section('content')
 
-    <h2 class="page-title">Главная страница</h2>
+{{--    <h2 class="page-title">Главная страница</h2>--}}
 
-    <img class="image-main-column" src=" {{ asset('images/instrument.jpg') }}">
-    <span class="text-main-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores et ex magni minima voluptatibus.
-                  Aliquid consequuntur eius id iusto modi molestias quo.
-                  Accusantium aliquam aliquid aperiam autem culpa deserunt,
-                  dicta dolor dolores error esse excepturi exercitationem fugit hic illo impedit labore laudantium
-                  optio praesentium quas quod repudiandae sed tempora temporibus?</span>
-    <span class="text-main-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores et ex magni minima voluptatibus.
-                  Aliquid consequuntur eius id iusto modi molestias quo.
-                  Accusantium aliquam aliquid aperiam autem culpa deserunt,
-                  dicta dolor dolores error esse excepturi exercitationem fugit hic illo impedit labore laudantium
-                  optio praesentium quas quod repudiandae sed tempora temporibus?</span>
-    <span class="text-main-column">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolores et ex magni minima voluptatibus.
-                  Aliquid consequuntur eius id iusto modi molestias quo.
-                  Accusantium aliquam aliquid aperiam autem culpa deserunt,
-                  dicta dolor dolores error esse excepturi exercitationem fugit hic illo impedit labore laudantium
-                  optio praesentium quas quod repudiandae sed tempora temporibus?</span>
+    <span class="text-main-column">@lang('site.main_page.first_text')</span>
+
+    <ul>
+        <li>
+            <a href="{{ url_with_locale('/tokarnaya') }}">
+                <span class="left-column-text">@lang('site.header.tokarnaya')</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_with_locale('/frezirovka') }}">
+                <span class="left-column-text">@lang('site.header.frezirovanie')</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_with_locale('/shlifovka') }}">
+                <span class="left-column-text">@lang('site.header.shlifovka')</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_with_locale('/zuborezka') }}">
+                <span class="left-column-text">@lang('site.header.zuborezka')</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_with_locale('/termo') }}">
+                <span class="left-column-text">@lang('site.header.termo')</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_with_locale('/pila') }}">
+                <span class="left-column-text">@lang('site.header.pilenie')</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_with_locale('/slesarnie') }}">
+                <span class="left-column-text">@lang('site.header.slesarnie')</span>
+            </a>
+        </li>
+    </ul>
+
+    <span class="text-main-column">@lang('site.main_page.second_text')</span>
+
+    <img class="main-page-image" src=" {{ asset('images/instrument.jpg') }}">
+    <img class="main-page-image" src=" {{ asset('images/1.jpg') }}">
+    <img class="main-page-image" src=" {{ asset('images/2.jpg') }}">
+    <img class="main-page-image" src=" {{ asset('images/3.jpg') }}">
+
 
 @endsection
