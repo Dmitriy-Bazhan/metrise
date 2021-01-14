@@ -23,7 +23,7 @@
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/tokarnaya') }}">
+                    <a href="{{ url_with_locale('/tokarnaya-obrabotka') }}">
                         <span class="left-column-text">@lang('site.header.tokarnaya')</span>
                     </a>
 
@@ -31,7 +31,7 @@
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/frezirovka') }}">
+                    <a href="{{ url_with_locale('/frezirovanie') }}">
                         <span class="left-column-text">@lang('site.header.frezirovanie')</span>
                     </a>
 
@@ -39,7 +39,7 @@
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/shlifovka') }}">
+                    <a href="{{ url_with_locale('/shlifovalnye-raboty') }}">
                         <span class="left-column-text">@lang('site.header.shlifovka')</span>
                     </a>
 
@@ -47,7 +47,7 @@
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/zuborezka') }}">
+                    <a href="{{ url_with_locale('/zuboreznye-raboty') }}">
                         <span class="left-column-text">@lang('site.header.zuborezka')</span>
                     </a>
 
@@ -55,7 +55,7 @@
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/termo') }}">
+                    <a href="{{ url_with_locale('/termoobrabotka') }}">
                         <span class="left-column-text">@lang('site.header.termo')</span>
                     </a>
 
@@ -63,7 +63,7 @@
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/pila') }}">
+                    <a href="{{ url_with_locale('/pilenie-zagotovok') }}">
                         <span class="left-column-text">@lang('site.header.pilenie')</span>
                     </a>
 
@@ -71,7 +71,7 @@
 
                 <div class="col-12">
 
-                    <a href="{{ url_with_locale('/slesarnie') }}">
+                    <a href="{{ url_with_locale('/slesarnye-raboty') }}">
                         <span class="left-column-text">@lang('site.header.slesarnie')</span>
                     </a>
 

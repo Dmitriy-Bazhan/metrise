@@ -4,14 +4,12 @@
     <list default="true" id="6b23abde-59e0-4a65-a01e-047278953b33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Site/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Site/OrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Site/MainpageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Site/MainpageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ru/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/site.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ua/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ua/site.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/orders.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/orders.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/orders.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/orders.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/components/header2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/components/header2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/main_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/main_page.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +172,8 @@
       <workItem from="1610528762311" duration="26042000" />
       <workItem from="1610564636939" duration="4588000" />
       <workItem from="1610570540130" duration="4810000" />
-      <workItem from="1610604491898" duration="14139000" />
+      <workItem from="1610604491898" duration="14769000" />
+      <workItem from="1610629432833" duration="1071000" />
     </task>
     <servers />
   </component>
@@ -189,10 +188,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1610484227056" />
-    <state x="624" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610553255023">
+    <state x="624" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1610629555610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1610553255023" />
+    <state x="624" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610629555610" />
     <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1610444253313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
