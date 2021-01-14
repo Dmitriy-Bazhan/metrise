@@ -25,7 +25,7 @@ class OrderController extends Controller
         $rules = [
             'name' => ['sometimes', 'nullable', 'regex:/^[A-Za-zА-Яа-я0-9\ \p{P},*]+$/u'],
             'description' => ['sometimes', 'nullable', 'regex:/^[A-Za-zА-Яа-я0-9\ \p{P},*]+$/u'],
-            'phone' => ['required', 'nullable', 'regex:/^[0-9\ -,*]+$/u'],
+            'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
             'images.*' => 'sometimes|mimes:jpeg,bmp,png,jpg',
         ];
 
@@ -40,6 +40,7 @@ class OrderController extends Controller
         $order->name = $post['name'];
         $order->description = $post['description'];
         $order->phone = $post['phone'];
+        $order->images = '{}';
         $order->save();
 
         $id = $order->id;
@@ -56,13 +57,13 @@ class OrderController extends Controller
 
         if (count($imageName) > 0) {
             $json = json_encode($imageName);
-            $order->images = $json;
+            $order->images = $json ;
             $order->save();
         }
         $message = '';
 
         $theme = 'Новый заказ';
-        $message .= 'Имя : ' . $post['name'] . ' , тел:'. $post['phone'] . ' --> ' . $post['description'];
+        $message .= 'ID заказа' . $id . ',Имя : ' . $post['name'] . ', тел:'. $post['phone'] . ' --> ' . $post['description'];
         $from = 'From: METRISE';
 
         if (isset($data['emails']) && count($data['emails']) > 0) {

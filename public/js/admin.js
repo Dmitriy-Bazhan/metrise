@@ -11,7 +11,7 @@ $(document).ready(function (){
     });
 
     $('.description-in-table').hover(function () {
-        let read = $(this).children('span').text();
+        let read = $(this).children('span').eq(1).text();
         if (read != '') {
             let block = '<div class="show-description">' + read + '</div>';
             $('body').append(block);

@@ -58,7 +58,7 @@
                     <span>{{ $order->phone }}</span>
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-1 col-lg-4 description-in-table">
+                <div class="col-12 col-sm-12 col-md-1 col-lg-4 @if(!is_null($order->description)) description-in-table @endif">
                     <span class="table-title-text d-sm-block d-md-none d-lg-none">Описание :</span><br>
                     <span class="d-none d-sm-none d-md-block d-lg-block">{{ $order->description }}</span>
                     <span
@@ -67,7 +67,7 @@
 
                 <div class="col-lg-3 d-none d-sm-none d-md-block d-lg-block">
 
-                    @if(!is_null($order->images))
+                    @if($order->images != '{}')
 
                         @php($images = json_decode($order->images,true))
 

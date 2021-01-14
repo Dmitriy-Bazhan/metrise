@@ -15,10 +15,10 @@ class CreateOrdersTable extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name')->nullable()->default('unknown');
-            $table->string('phone')->nullable()->default('unknown');
+            $table->string('name')->nullable();
+            $table->string('phone')->nullable();
             $table->text('description')->nullable();
-            $table->json('images')->nullable();
+            $table->json('images');
             $table->timestamps();
         });
     }
