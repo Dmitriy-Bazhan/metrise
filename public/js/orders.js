@@ -28,7 +28,7 @@ $(document).ready(function () {
             let f = file[key];
             let name = file[key].name;
             if (!f.type.match('image.*')) {
-                alert("Image only please....");
+                // alert("Image only please....");
             }
             var reader = new FileReader();
             reader.onload = (function (theFile) {

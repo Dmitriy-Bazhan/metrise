@@ -26,10 +26,11 @@ class OrderController extends Controller
             'name' => ['sometimes', 'nullable', 'regex:/^[A-Za-zА-Яа-я0-9\ \p{P},*]+$/u'],
             'description' => ['sometimes', 'nullable', 'regex:/^[A-Za-zА-Яа-я0-9\ \p{P},*]+$/u'],
             'phone' => ['required', 'nullable', 'regex:/^[0-9\ -,*]+$/u'],
+            'images.*' => 'sometimes|mimes:jpeg,bmp,png,jpg',
         ];
 
 
-        $check = Validator::make($post, $rules);
+        $check = Validator::make($request->all(), $rules);
 
         if ($check->fails()) {
             return redirect()->back()->withErrors($check)->withInput($request->post());
@@ -59,12 +60,9 @@ class OrderController extends Controller
             $order->save();
         }
         $message = '';
-        if (!is_null($post['name'])) {
-            $message .= $post['name'] . ' ';
-        }
 
         $theme = 'Новый заказ';
-        $message .= $post['phone'];
+        $message .= 'Имя : ' . $post['name'] . ' , тел:'. $post['phone'] . ' --> ' . $post['description'];
         $from = 'From: METRISE';
 
         if (isset($data['emails']) && count($data['emails']) > 0) {

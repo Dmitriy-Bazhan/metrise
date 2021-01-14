@@ -41,6 +41,7 @@ Route::group([
     Route::get('/', 'Admin\AdminController@index');
 });
 
+Route::post('/delete_order', 'Admin\AdminController@removeOrder')->middleware('auth');
 
 Auth::routes();
 
