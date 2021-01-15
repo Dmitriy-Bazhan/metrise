@@ -4,6 +4,19 @@
     <meta charset="utf-8">
     <title>@lang('site.title.title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="@lang('site.layout.description')">
+
+    <link rel="alternate" hreflang="uk-ua" href="http://metrise.com.ua/">
+    <link rel="alternate" hreflang="ru-ua" href="http://metrise.com.ua/ru/">
+
+
+    <meta property="og:title" content="@lang('site.title.title')">
+    <meta property="og:url" content="https://metrise.com.ua/{{ app()->getLocale() == 'ru' ? 'ru/' : '' }}">
+    <meta property="og:image" content="{{ asset('images/instrument.jpg') }}">
+    <meta property="og:description" content="@lang('site.layout.description')">
+    <meta property="og:type" content="website">
+
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 
@@ -19,9 +32,13 @@
 
         <div class="col-12 col-sm-10 col-md-10 col-lg-10 offset-0 offset-sm-1 offset-md-1 offset-lg-1 body-container">
 
-            @include('site.components.header1')
+            <header>
 
-            @include('site.components.header2')
+                @include('site.components.header1')
+
+                @include('site.components.header2')
+
+            </header>
 
             <br>
 
@@ -99,7 +116,6 @@
     </div>
 
 </div>
-
 
 
 <script src="{{ asset('js/main_page.js') }}" type="text/javascript"></script>

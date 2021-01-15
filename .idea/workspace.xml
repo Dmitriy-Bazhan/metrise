@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b23abde-59e0-4a65-a01e-047278953b33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ru/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/site.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ua/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ua/site.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/gallery.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/orders.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/orders.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/work_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/work_page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/components/header1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/components/header1.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +173,7 @@
       <workItem from="1610629432833" duration="1071000" />
       <workItem from="1610652979267" duration="5910000" />
       <workItem from="1610665533415" duration="1410000" />
-      <workItem from="1610700415257" duration="4361000" />
+      <workItem from="1610700415257" duration="8084000" />
     </task>
     <servers />
   </component>
