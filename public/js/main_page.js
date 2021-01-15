@@ -28,7 +28,7 @@ $(document).ready(function () {
 
     $(document).on('click', '.read-less-button', function (event) {
         event.preventDefault();
-        $('.text-block-for-little-displays').css({'overflow': 'hidden', 'height': '150px'});
+        $('.text-block-for-little-displays').css({'overflow': 'hidden', 'height': '135px'});
         let lang = $(this).data('lang');
         if (lang == 'ru') {
             var block = '<a class="d-block d-md-none d-lg-none read-more-button" ' +

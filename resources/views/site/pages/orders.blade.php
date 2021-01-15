@@ -10,23 +10,21 @@
 
     @else
 
-
+        <span class="d-none d-sm-block text-main-column">@lang('site.orders.prompt')</span>
         <div class="d-none d-sm-block row get-image-here">
+
 
         </div>
 
         <div class="d-block d-sm-block d-md-none d-lg-none get-mob-image-here">
+
+            <span class="text-mobile-main-column">@lang('site.orders.prompt')</span>
 
         </div>
 
         <form method="POST" action="{{ url_with_locale('/save-orders') }}" enctype="multipart/form-data" class="decor">
 
             {{ csrf_field() }}
-
-            {{--        <div class="form-left-decoration"></div>--}}
-            {{--        <div class="form-right-decoration"></div>--}}
-            {{--        <div class="circle"></div>--}}
-
 
             <div class="form-inner">
 

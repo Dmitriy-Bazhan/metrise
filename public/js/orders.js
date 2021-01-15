@@ -41,6 +41,8 @@ $(document).ready(function () {
                     let blockName = '<span class="header-2-text">' + name +'</span><br>';
                     $('.get-image-here').append(span);
                     $('.get-mob-image-here').append(blockName);
+
+                    $('.text-mobile-main-column').remove();
                 };
             })(f);
 

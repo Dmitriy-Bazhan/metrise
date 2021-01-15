@@ -19,7 +19,7 @@
 
     <div class="d-block d-md-none d-lg-none text-block-for-little-displays">
 
-        <span class="text-main-column">@lang('site.pages.' . $works. '_text')</span>
+        <span class="text-mobile-main-column">@lang('site.pages.' . $works. '_text')</span>
 
     </div>
 

@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h2 class="page-title">Галерея фотографий</h2>
+    <h2 class="page-title">@lang('site.gallery.title')</h2>
 
     <div class="d-none d-sm-none d-md-block">
 
