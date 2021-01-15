@@ -4,7 +4,7 @@
 
         <div class="col-9 col-sm-3 col-md-2 col-lg-2">
 
-            <a href="{{ url_with_locale('/') }}"><img class="logo-img" src="{{ asset('images/instrument.jpg') }}"><span
+            <a href="{{ url_with_locale('/') }}"><img class="logo-img" src="{{ asset('images/instrument.jpg') }}"  alt=""><span
                     class="header-2-logo-text">METRISE</span></a>
 
         </div>

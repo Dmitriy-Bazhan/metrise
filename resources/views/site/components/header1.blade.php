@@ -27,14 +27,14 @@
             <div class="d-sm-none d-md-none d-lg-none col-8">
 
                 @if(isset($phones[0]))
-                    <a href="tel:+8{{ isset($phones[0]) ? $phones[0] : '' }}">
+                    <a href="tel:+8{{ isset($phones[0]) ? str_replace(' ', '', $phones[0]) : '' }}">
                         <span class="phone-tube">&#9990;&nbsp;</span>
                         <span class="phone-number">{{ isset($phones[0]) ? $phones[0] : '' }}</span>
                     </a>
                     <br>
                 @endif
                 @if(isset($phones[1]))
-                    <a href="tel:+8{{ isset($phones[1]) ? $phones[1] : '' }}">
+                    <a href="tel:+8{{ isset($phones[1]) ? str_replace(' ', '', $phones[1]) : '' }}">
                         <span class="phone-tube">&#9990;&nbsp;</span>
                         <span class="phone-number">{{ isset($phones[1]) ? $phones[1] : '' }}</span>
                     </a>

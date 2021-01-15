@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale() == 'ua' ? 'uk' : 'ru') }}">
 <head>
     <meta charset="utf-8">
     <title>@lang('site.title.title')</title>
@@ -23,8 +23,8 @@
 </head>
 <body>
 
-<script src="{{ asset('js/jquery-3.4.1.js') }}" type="text/javascript"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/jquery-3.4.1.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
 
 <div class="container-fluid">
 
@@ -53,47 +53,47 @@
                                 <a href="{{ url_with_locale('/tokarnaya-obrabotka') }}">
                                     <span class="left-column-text">@lang('site.header.tokarnaya')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
-                                         src="{{asset('images/tokarniy-stanok.jpg')}}"></a>
+                                         src="{{asset('images/tokarniy-stanok.jpg')}}" alt=""></a>
                             </li>
                             <li>
                                 <a href="{{ url_with_locale('/frezirovanie') }}">
                                     <span class="left-column-text">@lang('site.header.frezirovanie')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
-                                         src="{{asset('images/freza-1.jpg')}}"></a>
+                                         src="{{asset('images/freza-1.jpg')}}" alt=""></a>
                             </li>
                             <li>
                                 <a href="{{ url_with_locale('/shlifovalnye-raboty') }}">
                                     <span class="left-column-text">@lang('site.header.shlifovka')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
-                                         src="{{asset('images/shlif.jpg')}}">
+                                         src="{{asset('images/shlif.jpg')}}" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ url_with_locale('/zuboreznye-raboty') }}">
                                     <span class="left-column-text">@lang('site.header.zuborezka')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
-                                         src="{{asset('images/zuborezka.png')}}">
+                                         src="{{asset('images/zuborezka.png')}}" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ url_with_locale('/termoobrabotka') }}">
                                     <span class="left-column-text">@lang('site.header.termo')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
-                                         src="{{asset('images/termichka.jpg')}}">
+                                         src="{{asset('images/termichka.jpg')}}" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ url_with_locale('/pilenie-zagotovok') }}">
                                     <span class="left-column-text">@lang('site.header.pilenie')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
-                                         src="{{asset('images/pila.jpg')}}">
+                                         src="{{asset('images/pila.jpg')}}" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ url_with_locale('/slesarnye-raboty') }}">
                                     <span class="left-column-text">@lang('site.header.slesarnie')</span>
                                     <img class="left-column-image d-none d-sm-none d-md-block"
-                                         src="{{asset('images/slesarnie.jpg')}}">
+                                         src="{{asset('images/slesarnie.jpg')}}" alt="">
                                 </a>
                             </li>
                         </ul>
@@ -118,6 +118,6 @@
 </div>
 
 
-<script src="{{ asset('js/main_page.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/main_page.js') }}"></script>
 </body>
 </html>

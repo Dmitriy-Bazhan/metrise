@@ -44,10 +44,10 @@
 
     <span class="text-main-column">@lang('site.main_page.second_text')</span>
 
-    <img class="main-page-image" src=" {{ asset('images/instrument.jpg') }}">
-    <img class="main-page-image" src=" {{ asset('images/1.jpg') }}">
-    <img class="main-page-image" src=" {{ asset('images/2.jpg') }}">
-    <img class="main-page-image" src=" {{ asset('images/3.jpg') }}">
+    <img class="main-page-image" src=" {{ asset('images/instrument.jpg') }}" alt="">
+    <img class="main-page-image" src=" {{ asset('images/1.jpg') }}" alt="">
+    <img class="main-page-image" src=" {{ asset('images/2.jpg') }}" alt="">
+    <img class="main-page-image" src=" {{ asset('images/3.jpg') }}" alt="">
 
 
 @endsection
