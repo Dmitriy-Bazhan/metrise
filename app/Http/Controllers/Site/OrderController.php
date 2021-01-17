@@ -26,7 +26,7 @@ class OrderController extends Controller
             'name' => ['sometimes', 'nullable', 'regex:/^[A-Za-zА-Яа-я0-9\ \p{P},*]+$/u'],
             'description' => ['sometimes', 'nullable', 'regex:/^[A-Za-zА-Яа-я0-9\ \p{P},*]+$/u'],
             'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
-            'images.*' => 'sometimes|mimes:jpeg,bmp,png,jpg',
+            'images.*' => 'sometimes|image',
         ];
 
 

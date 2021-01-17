@@ -9,7 +9,7 @@
 
         </div>
 
-        <nav class="col-2 navbar navbar-dark bg-transparent d-md-none d-lg-none ">
+        <nav class="col-2 col-sm-2 col-md-2 navbar navbar-dark bg-transparent offset-sm-7 offset-md-8 d-md-block d-lg-none ">
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -113,25 +113,25 @@
 
         </div>
 
-        <div class="col-12 col-sm-2 col-md-2 col-lg-2 d-none d-sm-block">
+        <div class="col-md-2 col-lg-2 d-none d-sm-none d-sm-none d-lg-block">
 
             <a class="header-2-text" href="{{ url_with_locale('/about_us') }}">@lang('site.header.about_us')</a>
 
         </div>
 
-        <div class="col-12 col-sm-2 col-md-2 col-lg-2 d-none d-sm-block">
+        <div class="col-md-2 col-lg-2 d-none d-sm-none d-sm-none d-lg-block">
 
             <a class="header-2-text" href="{{ url_with_locale('/gallery') }}">@lang('site.header.gallery')</a>
 
         </div>
 
-        <div class="col-12 col-sm-2 col-md-2 col-lg-2 d-none d-sm-block">
+        <div class="col-md-2 col-lg-2 d-none d-sm-none d-sm-none d-lg-block">
 
             <a class="header-2-text" href="{{ url_with_locale('/orders') }}">@lang('site.header.orders')</a>
 
         </div>
 
-        <div class="col-12 col-sm-2 col-md-2 col-lg-2 offset-xl-2 offset-md-2 offset-sm-1 d-none d-sm-block">
+        <div class="col-md-2 col-lg-2 offset-xl-2 offset-md-2 offset-sm-1 d-none d-sm-none d-sm-none d-lg-block">
 
             <a class="header-2-text" href="{{ url_with_locale('/contacts') }}">@lang('site.header.contacts')</a>
 
