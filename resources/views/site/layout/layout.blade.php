@@ -10,6 +10,7 @@
     <link rel="alternate" hreflang="uk-ua" href="http://metrise.com.ua/">
     <link rel="alternate" hreflang="ru-ua" href="http://metrise.com.ua/ru/">
 
+    <meta name="google-site-verification" content="cH3tZLcmMnlJmJvMGrr7zVeKhRkJZS2cXpGkQAEYF6Q"/>
 
     <meta property="og:title" content="@lang('site.title.title')">
     <meta property="og:url" content="https://metrise.com.ua/{{ app()->getLocale() == 'ru' ? 'ru/' : '' }}">
@@ -19,6 +20,25 @@
 
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Metrise",
+        "description": "Мехобработка в Харькове",
+        "url": "https://metrise.com.ua/",
+        "email": "metrise@gmail.com",
+        "contactPoint":
+            {
+                 "@type": "ContactPoint",
+                 "telephone": "+38 0 (99) 915 58 80",
+                 "contactType": "customer service"
+            },
+        "address": "Ул. Плиточная , Харків, Харківська область, 61000"
+    }
+
+    </script>
 
 </head>
 <body>

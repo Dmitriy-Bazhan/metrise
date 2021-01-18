@@ -63,21 +63,4 @@
 
     </div>
 
-<script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Metrise",
-    "description": "Мехобработка в Харькове",
-    "url": "https://metrise.com.ua/",
-    "email": "metrise@gmail.com",
-    "contactPoint": [
-        {
-            "@type": "ContactPoint",
-            "telephone": "+38 0 (99) 915 58 80",
-            "contactType": "customer service"
-        }
-    ],
-    "address": "Ул. Плиточная , Харків, Харківська область, 61000"
-}
 
-</script>
