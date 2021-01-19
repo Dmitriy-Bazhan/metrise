@@ -44,4 +44,24 @@ $(document).ready(function () {
         $(this).remove();
     });
 
+    $('.first-view').click(function () {
+        $('.first-view').hide();
+    });
+
+    (function () {
+
+        $('.first-view-title').animate({
+            opacity: 0,
+        }, 1000);
+
+        $('.first-view-title').animate({
+            opacity: 1,
+        }, 1000);
+
+
+        setTimeout(function () {
+            $('.first-view').hide('slow');
+        }, 2000);
+    })();
+
 });

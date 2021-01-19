@@ -7,6 +7,31 @@ a:hover {
     text-decoration: none;
 }
 
+.first-view {
+    width: 100%;
+    text-align: center;
+    border: solid 1px black;
+}
+
+@media (min-width: 480px) and (max-width: 2000px) {
+    .first-view-title {
+        margin-top: 20%;
+        color: white;
+        margin-bottom: 150%;
+        font-size: calc(10px + (120) * ( (100vw - 480px) / ( 2000 - 480) ));
+    }
+}
+
+@media (max-width: 479px) {
+    .first-view-title {
+        margin-top: 80%;
+        color: white;
+        margin-bottom: 100%;
+        font-size: calc(30px);
+    }
+}
+
+
 .lang-link-disabled {
     color: lime;
 }

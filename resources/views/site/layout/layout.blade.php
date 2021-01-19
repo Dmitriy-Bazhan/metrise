@@ -38,6 +38,7 @@
         "address": "Ул. Плиточная , Харків, Харківська область, 61000"
     }
 
+
     </script>
 
 </head>
@@ -45,6 +46,15 @@
 
 <script src="{{ asset('js/jquery-3.4.1.js') }}"></script>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+
+@if(strlen($path) < 23)
+
+    <div class="first-view">
+        <h1 class="first-view-title">{{-- $path --}}METRISE.COM.UA</h1>
+    </div>
+
+@endif
+
 
 <div class="container-fluid">
 
