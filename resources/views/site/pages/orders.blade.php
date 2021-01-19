@@ -29,7 +29,7 @@
             <div class="form-inner">
 
                 @if($errors->has('images.*'))
-                    <span>@lang('site.orders.only_images')</span>
+                    <span class="wrong-answers">@lang('site.orders.only_images')</span>
                 @endif
 
                 <div>
@@ -81,7 +81,7 @@
 
                     <div class="order-block-with-error">
 
-                        <span>@lang('site.orders.how_i_call_you')</span>
+                        <span class="wrong-answers">@lang('site.orders.how_i_call_you')</span>
                         <input type="tel" value="{{ old('phone') }}" name="phone"
                                placeholder="@lang('site.orders.phone')"
                                class="input-phone-with-error" maxlength="20">

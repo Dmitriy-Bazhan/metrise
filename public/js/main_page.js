@@ -52,16 +52,16 @@ $(document).ready(function () {
 
         $('.first-view-title').animate({
             opacity: 0,
-        }, 1000);
+        }, 1500);
 
         $('.first-view-title').animate({
             opacity: 1,
-        }, 1000);
+        }, 1500);
 
 
         setTimeout(function () {
             $('.first-view').hide('slow');
-        }, 2000);
+        }, 3000);
     })();
 
 });

@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/orders.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/orders.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +188,9 @@
       <workItem from="1610985981454" duration="5000" />
       <workItem from="1611048985514" duration="690000" />
       <workItem from="1611050433320" duration="4570000" />
-      <workItem from="1611063849650" duration="5698000" />
+      <workItem from="1611063849650" duration="5970000" />
+      <workItem from="1611070298932" duration="637000" />
+      <workItem from="1611085132595" duration="1011000" />
     </task>
     <servers />
   </component>

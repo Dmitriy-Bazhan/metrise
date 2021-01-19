@@ -10,7 +10,6 @@ a:hover {
 .first-view {
     width: 100%;
     text-align: center;
-    border: solid 1px black;
 }
 
 @media (min-width: 480px) and (max-width: 2000px) {
@@ -292,14 +291,14 @@ body {
     background: radial-gradient(#28867e, #015460);
 }
 .form-inner {
-    padding: 50px;
+    padding: 2%;
 }
 
 .input-name, .input-phone, .input-description{
     display: block;
     width: 100%;
     padding: 0 20px;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     background: radial-gradient(#28867e, #015460);
     line-height: 40px;
     border-width: 0;
@@ -311,7 +310,7 @@ body {
     display: block;
     width: 100%;
     padding: 0 20px;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     background: radial-gradient(#28867e, #015460);
     line-height: 40px;
     border-width: 0;
@@ -333,6 +332,17 @@ body {
     font-size: 14px;
 }
 
+.wrong-answers {
+    margin-left: 2%;
+    font-side: 14px;
+    font-weight: 600;
+    color: #c10404;
+}
+
+input[type="submit"] {
+    color: #20b2aa;
+}
+
 .add-more-image {
     display: block;
     width: 100%;
@@ -343,15 +353,15 @@ body {
     border-width: 0;
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
-
+    color: #20b2aa;
     text-align: center;
     margin-top: 10px;
     cursor: pointer;
     transition: all 0.18s ease-in-out;
 }
 
-.add-more-image:hover {
-    color: white;
+.add-more-image:hover, input[type="submit"]:hover {
+    color: #23f5ea;;
     background-position: bottom left;
 }
 
