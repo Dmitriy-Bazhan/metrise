@@ -3,23 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6b23abde-59e0-4a65-a01e-047278953b33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/about_us.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/about_us.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/freza-1 — копия.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/freza-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/freza-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/instrument.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/instrument.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lathe-2987295_1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pila.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/pila.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shlif.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/shlif.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/slesarnie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/slesarnie.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/support.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/termichka.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/termichka.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/tokarniy-stanok.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/tokarniy-stanok.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/zuborezka.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/zuborezka.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/components/header1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/components/header1.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/layout/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/pages/main_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/pages/main_page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../products.api" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -193,6 +181,14 @@
       <workItem from="1610858789423" duration="1989000" />
       <workItem from="1610861414918" duration="14000" />
       <workItem from="1610908191842" duration="1189000" />
+      <workItem from="1610960323031" duration="1276000" />
+      <workItem from="1610964217175" duration="25000" />
+      <workItem from="1610980798540" duration="32000" />
+      <workItem from="1610980860452" duration="9000" />
+      <workItem from="1610983078055" duration="56000" />
+      <workItem from="1610985981454" duration="5000" />
+      <workItem from="1611048985514" duration="690000" />
+      <workItem from="1611050433320" duration="3711000" />
     </task>
     <servers />
   </component>
@@ -212,9 +208,9 @@
     </state>
     <state x="624" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1280.0.1280.984@0.0.1920.1040" timestamp="1610553255023" />
     <state x="624" y="216" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610629555610" />
-    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1610444253313">
+    <state x="687" y="216" key="FileChooserDialogImpl" timestamp="1610964239986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610444253313" />
+    <state x="687" y="216" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610964239986" />
   </component>
 </project>

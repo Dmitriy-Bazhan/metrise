@@ -46,3 +46,5 @@ Route::post('/delete_order', 'Admin\AdminController@removeOrder')->middleware('a
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/sitemap.xml', 'SitemapController@index');

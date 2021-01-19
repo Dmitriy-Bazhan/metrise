@@ -2,7 +2,8 @@
 
 @section('content')
 
-    <span class="text-main-column">@lang('site.main_page.first_text')</span>
+    <span class="d-none d-sm-none d-md-block text-main-column">@lang('site.main_page.first_text')</span>
+    <span class="d-block d-sm-block d-md-none d-lg-none text-mobile-main-column">@lang('site.main_page.first_text')</span>
 
     <ul>
         <li>
@@ -42,7 +43,8 @@
         </li>
     </ul>
 
-    <span class="text-main-column">@lang('site.main_page.second_text')</span>
+    <span class="d-none d-sm-none d-md-block text-main-column">@lang('site.main_page.second_text')</span>
+    <span class="d-block d-sm-block d-md-none d-lg-none text-mobile-main-column">@lang('site.main_page.second_text')</span>
 
     <img class="main-page-image" src=" {{ asset('images/instrument.jpg') }}" alt="">
     <img class="main-page-image" src=" {{ asset('images/1.jpg') }}" alt="">
