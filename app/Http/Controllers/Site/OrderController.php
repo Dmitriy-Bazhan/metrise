@@ -66,6 +66,8 @@ class OrderController extends Controller
         $message .= 'ID заказа' . $id . ',Имя : ' . $post['name'] . ', тел:'. $post['phone'] . ' --> ' . $post['description'];
         $from = 'From: METRISE';
 
+
+
         if (isset($data['emails']) && count($data['emails']) > 0) {
             foreach ($data['emails'] as $email) {
                 mail($email, $theme, $message, $from);

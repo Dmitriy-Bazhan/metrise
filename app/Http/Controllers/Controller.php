@@ -13,7 +13,7 @@ class Controller extends BaseController
 
     public function __construct(){
         $this->data['phones'] = ['099 915 58 80','093 811 30 48'];
-        $this->data['emails'] = ['metrise@gmail.com'];
+        $this->data['emails'] = ['dmitriybazhan79@gmail.com'];
     }
 
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;

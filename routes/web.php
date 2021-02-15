@@ -48,3 +48,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/sitemap.xml', 'SitemapController@index');
+
+Route::get('/error',function(){
+    abort(404);
+});

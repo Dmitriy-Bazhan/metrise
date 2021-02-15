@@ -22,7 +22,7 @@
 
         @foreach($emails as $email)
 
-            <h4 class="text-main-column">E-mail : {{ $email }}</h4>
+            <h4 class="text-main-column">E-mail : metrise@gmail.com{{-- $email --}}</h4>
 
         @endforeach
 

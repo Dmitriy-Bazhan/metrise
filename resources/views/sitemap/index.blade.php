@@ -12,7 +12,15 @@
 
                 <xhtml:link rel="alternate" hreflang="ru" href="{{ url($languages[1] . $page['url']) }}"/>
 
-                <xhtml:link rel="alternate" hreflang="uk" href="{{ url($languages[0] . $page['url']) }}"/>
+                @if($page['url'] == '/')
+
+                    <xhtml:link rel="alternate" hreflang="uk" href="{{ url($languages[0] . $page['url']) . '/'}}"/>
+
+                @else
+
+                    <xhtml:link rel="alternate" hreflang="uk" href="{{ url($languages[0] . $page['url']) }}"/>
+
+                @endif
 
                 <lastmod>{{ $page['lastmode'] }}</lastmod>
 
@@ -28,29 +36,29 @@
 
     {{--  --}}
 
-{{--    @foreach ($posts as $post)--}}
+    {{--    @foreach ($posts as $post)--}}
 
-{{--        @foreach($languages as $lang)--}}
+    {{--        @foreach($languages as $lang)--}}
 
-{{--            <url>--}}
+    {{--            <url>--}}
 
-{{--                <loc>{{ url($lang . 'blog/' . $post->alias) }}</loc>--}}
+    {{--                <loc>{{ url($lang . 'blog/' . $post->alias) }}</loc>--}}
 
-{{--                <xhtml:link rel="alternate" hreflang="ru" href="{{ url($languages[1] .'blog/' . $post->alias) }}"/>--}}
+    {{--                <xhtml:link rel="alternate" hreflang="ru" href="{{ url($languages[1] .'blog/' . $post->alias) }}"/>--}}
 
-{{--                <xhtml:link rel="alternate" hreflang="uk" href="{{ url($languages[0] .'blog/' . $post->alias) }}"/>--}}
+    {{--                <xhtml:link rel="alternate" hreflang="uk" href="{{ url($languages[0] .'blog/' . $post->alias) }}"/>--}}
 
-{{--                <lastmod>{{ $post->updated_at->tz('UTC')->toAtomString() }}</lastmod>--}}
+    {{--                <lastmod>{{ $post->updated_at->tz('UTC')->toAtomString() }}</lastmod>--}}
 
-{{--                <changefreq>monthly</changefreq>--}}
+    {{--                <changefreq>monthly</changefreq>--}}
 
-{{--                <priority>0.8</priority>--}}
+    {{--                <priority>0.8</priority>--}}
 
-{{--            </url>--}}
+    {{--            </url>--}}
 
-{{--        @endforeach--}}
+    {{--        @endforeach--}}
 
-{{--    @endforeach--}}
+    {{--    @endforeach--}}
 
     {{--  --}}
 
